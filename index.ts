@@ -54,11 +54,20 @@ app.delete("/delete/:id",async(req: Request, res: Response) =>{
 
 const openDb = ():Pool => {
     const pool: Pool = new Pool ({
+/* 
         user: 'postgres',
         host:'localhost',
         database: 'todo',
         password: '12345',
         port: 5432
+         */
+
+        user: 'root',
+        host: 'dpg-cgiate9r8t1g7lo7jsd0-a.oregon-postgres.render.com',
+        database: 'todo',
+        password: '0wRaIJOn10FTeqU7Qaru9kL2JSdkPN3Y',
+        port: 5432,
+        ssl: true
     })
     return pool
 }
