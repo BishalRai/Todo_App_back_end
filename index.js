@@ -60,7 +60,7 @@ const openDb = () => {
                  */
         user: 'root',
         host: 'dpg-cgiate9r8t1g7lo7jsd0-a.oregon-postgres.render.com',
-        database: 'todo',
+        database: 'todo_7kjb',
         password: '0wRaIJOn10FTeqU7Qaru9kL2JSdkPN3Y',
         port: 5432,
         ssl: true
